@@ -7,7 +7,7 @@
 </head>
 <body>
     
-CADASTRO DE ALUNO
+CADASTRO DE ALUNO (alterado)
 <br>
 <br>
 
