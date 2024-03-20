@@ -7,7 +7,7 @@
 </head>
 <body>
     
-CADASTRO DE ALUNO (alterado)
+CADASTRO DE ALUNO
 <br>
 <br>
 
@@ -15,9 +15,9 @@ CADASTRO DE ALUNO (alterado)
     comentario
 -->
 
-<form method="post">
+<form method="post" action="aluno_cadastro.php">
     Nome:<br>
-    <input type="text" name="alu_nome">
+    <input type="text" name="alu_nome" maxlength="100">
     <br>
     <br>
 
@@ -27,7 +27,16 @@ CADASTRO DE ALUNO (alterado)
     <br>
     <br>
 
-    <input type="submit" value="SALVAR">
+    Status:<br>
+    <select name="alu_status">
+        <option value="A">Ativo</option>
+        <option value="I">Inativo</option>
+    </select>
+
+    <br>
+    <br>
+
+    <input type="submit" name="acao" value="SALVAR">
 </form>
 <br>
 <a href="index.php">Home</a>
