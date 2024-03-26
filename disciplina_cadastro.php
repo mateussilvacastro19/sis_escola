@@ -9,7 +9,7 @@ $alu_status  = $_POST['dis_status'];
 $acao       = $_POST['acao'];
 
 if( $acao == 'SALVAR' ){
-    //-- conexao com o banco de dados
+    //-- conexao com o banco de dados 
     $host   = '127.0.0.1';
     $usuario= 'root';
     $senha  = '';
