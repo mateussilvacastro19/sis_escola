@@ -12,7 +12,21 @@ SISTEMA DE ESCOLA
 <br>
 
 <a href="aluno.php">
+    
 CADASTRO DE ALUNO
+</a>
+<br>
+<br>
+<a href="disciplina.php">
+    
+CADASTRO DE DISCIPLINA
+</a>
+</a>
+<br>
+<br>
+
+<a href="professor.php">
+CADASTRO DE PROFESSOR
 </a>
 
 </body>
